@@ -1,0 +1,34 @@
+{
+  "name": "express-course",
+  "version": "1.0.0",
+  "description": "Curso de Express Js ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gapfware/express-course.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Nodejs"
+  ],
+  "author": "Gabriel Perez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gapfware/express-course/issues"
+  },
+  "homepage": "https://github.com/gapfware/express-course#readme",
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
